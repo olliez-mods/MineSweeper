@@ -26,14 +26,11 @@ int main()
     update_numbers(board);
 
     sf::Image icon;
-    icon.loadFromFile("icon.png"); // File/Image/Pixel
+    icon.loadFromFile("sprites/icon.png"); // File/Image/Pixel
     window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
     sf::RectangleShape backround_rect = sf::RectangleShape(sf::Vector2f(BOARD_SIZE * SIZE_PER_SQUARE, BOARD_SIZE * SIZE_PER_SQUARE));
     backround_rect.setFillColor(sf::Color(130, 130, 130));
-
-    sf::Font font;
-    font.loadFromFile("arial.ttf");
 
     while (window.isOpen())
     {
