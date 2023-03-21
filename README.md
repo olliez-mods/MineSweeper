@@ -13,4 +13,4 @@ Flag all the mines to win.
 
 
 
-This was last updated with SFML 3.0.0, on a macbook (hence the resource path files) but should all work on windows too
+This was last updated for SFML 3.0.0, on a macbook (hence the resource path files) but works on windows too
