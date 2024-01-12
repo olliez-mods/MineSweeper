@@ -1,6 +1,8 @@
 # MineSweeper
 Minesweeper but made by me.
 
+[Video Demo](https://youtu.be/uoBxmhNjguw)
+
 If you're unsure how to play minesweeper the rules can be found on the internet. here are the controls.
 
 Click anywhere to start (can't die on the first click).
